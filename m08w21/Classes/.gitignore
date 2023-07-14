@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+cbc/node_modules
+cbc/.pnp
+cbc/.pnp.js
+
+# testing
+cbc/coverage
+
+# production
+cbc/build
+
+# misc
+cbc/.DS_Store
+cbc/.env.local
+cbc/.env.development.local
+cbc/.env.test.local
+cbc/.env.production.local
+
+cbc/npm-debug.log*
+cbc/yarn-debug.log*
+cbc/yarn-error.log*
